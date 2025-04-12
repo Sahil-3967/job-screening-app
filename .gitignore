@@ -1,0 +1,17 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore environment
+venv/
+
+# Ignore secrets and credentials
+secrets.txt
+.env
+*.key
+
+# Ignore DBs and system junk
+*.sqlite3
+*.db
+.DS_Store
+.idea/
